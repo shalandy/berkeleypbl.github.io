@@ -141,7 +141,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background: url("../img/intro-bg-compressed.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -240,7 +240,26 @@ a:focus, a:hover {
   transform: translateY(-50%);
 }
 
+.toptext-two {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 140%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: none;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .col-lg-1:hover .toptext {
+  opacity: 1;
+}
+.col-lg-1:hover .toptext-two {
   opacity: 1;
 }
 
@@ -266,13 +285,13 @@ a:focus, a:hover {
 }
 
 .content-section {
-  padding-top: 100px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .committee-section {
   color: white;
-  background: url("../img/committees-bg.jpg") no-repeat center center scroll;
+  background: url("../img/committees-bg.jpg") no-repeat center bottom scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -291,8 +310,8 @@ a:focus, a:hover {
 
 @media (min-width: 992px) {
   .content-section {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
   #map {
     height: 350px;
