@@ -3,14 +3,25 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 
 html {
   width: 100%;
   height: 100%;
 }
+
+hr {
+    border-top: 1px solid white;
+    color: white;
+    overflow: visible;
+    text-align: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 0.1rem;
+}
+
 
 h1,
 h2 {
@@ -50,7 +61,7 @@ a {
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   border-bottom: 2px solid #bfe1fc;
-  color: white;
+  color: black;
 }
 
 a:focus, a:hover {
@@ -71,10 +82,6 @@ a:focus, a:hover {
   padding: 11px;
   color: white;
   border: 1px solid white;
-}
-
-#mainNav .navbar-brand {
-  font-weight: 700;
 }
 
 #mainNav a {
@@ -240,7 +247,19 @@ a:focus, a:hover {
   transform: translateY(-50%);
 }
 
+.bottext {
+  text-align: center;
+  margin-top: 0.2rem;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: none;
+}
+
 .col-lg-1:hover .toptext {
+  opacity: 1;
+}
+
+.col-lg-1:hover .bottext {
   opacity: 1;
 }
 
@@ -266,8 +285,8 @@ a:focus, a:hover {
 }
 
 .content-section {
-  padding-top: 100px;
-  padding-bottom: 150px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .committee-section {
@@ -278,10 +297,11 @@ a:focus, a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .contact-section {
-  color: white;
+  color: black;
 }
 
 #map {
@@ -291,8 +311,8 @@ a:focus, a:hover {
 
 @media (min-width: 992px) {
   .content-section {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
   #map {
     height: 350px;
@@ -311,16 +331,22 @@ a:focus, a:hover {
 }
 
 .btn-default {
-  color: #bfe1fc;
-  border: 1px solid #bfe1fc;
+  color: black;
+  border: 1px solid black;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
-  color: black;
+  color: #bfe1fc;
   border: 1px solid #bfe1fc;
   outline: none;
-  background-color: #bfe1fc;
+  background-color: transparent;
+}
+
+
+.wbutton {
+  color: white;
+  border: 1px solid white;
 }
 
 ul.banner-social-buttons {
@@ -346,8 +372,8 @@ ul.banner-social-buttons {
 
 footer {
   padding: 10px 0;
-  background-color: #bfe1fc;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 footer p {
