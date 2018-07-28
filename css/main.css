@@ -300,6 +300,10 @@ a:focus, a:hover {
   background-attachment: fixed;
 }
 
+.committee-section a {
+  color: white;
+}
+
 .contact-section {
   color: black;
 }
