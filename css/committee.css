@@ -13,6 +13,17 @@
     background: url("../img/vm-header.jpg") no-repeat center center scroll;
 }
 
+.alumni {
+  color: white;
+  background: url("../img/carousel3.jpg") no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .chairs-section {
   color: white;
   background-color: black;
