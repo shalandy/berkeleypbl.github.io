@@ -20,11 +20,18 @@
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
 
-
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/about.css" rel="stylesheet">
+    <link href="css/committee.css" rel="stylesheet">
 
+    <!-- Header -->
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+      $(function(){
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
 
   </head>
 
@@ -71,10 +78,10 @@
   </div>
 </nav>
 
-    <section class="about-section content-section text-center">
+    <section class="about-section content-section text-center join">
       <div class="container">
         <div class="col-lg-8 mx-auto">
-          <h2>About Berkeley PBL</h2>
+          <h2>Join Us</h2>
         </div>
       </div>
     </section>
@@ -84,80 +91,19 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Overview</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Cras nec arcu eget turpis dignissim accumsan eget ut libero.
-              Vivamus ut nisi placerat, mattis risus et, dapibus ante. Sed
-              lacinia nunc id hendrerit convallis. Donec nec sapien risus.
-              Praesent gravida velit sed neque interdum, quis placerat urna
-              fringilla.</p>
+            <h2>Recruitment</h2>
+            <p>Check back soon for information on Fall 2018 recruitment!
+             </br></br>
+             </p>
           </div>
+        </div>
+        <div class="col-lg-4 mx-auto">
+          <img class="img-fluid" src="img/recr_wave.jpg" alt="">
         </div>
       </div>
     </section>
 
-    <section class="mission-section content-section text-center">
-      <div class="container">
-        <div class="col-lg-8 mx-auto">
-          <h2>Our Mission</h2>
-          <p>Proin nunc ipsum, venenatis ac metus at, vulputate euismod enim.
-            Sed viverra nisl est. Vestibulum lobortis lacus tempor ante cursus,
-            et placerat nunc ullamcorper. </p>
-        </div>
-        <div class="row justify-content-md-center">
-          <div class="col-lg-1">
-            <img src="img/mission-vectors_new_heart.png" class="image">
-            <div class="bottext">
-                <div class="text">Find your passion</div>
-              </div>
-          </div>
-          <div class="col-lg-1">
-            <img src="img/mission-vectors_new_skills.png"  class="image">
-            <div class="bottext">
-                <div class="text">Hone your skills</div>
-              </div>
-          </div>
-          <div class="col-lg-1">
-            <img src="img/mission-vectors_new_trophy.png"  class="image">
-            <div class="bottext">
-                <div class="text">Build a winning profile</div>
-              </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="gallery" class="gallery-section content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Gallery</h2>
-            <!--<a data-flickr-embed="true"  href="https://www.flickr.com/photos/132667348@N07/albums/72157693282652292" title="[IN] Spring 2018 Banquet"><img src="https://farm1.staticflickr.com/964/40068458000_d785f93d9e_o.jpg"
-              width="1000" height="600" alt="[IN] Spring 2018 Banquet"></a><script
-              async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script> -->
-        </div>
-      </div>
-      <div class = "row gallery">
-        <iframe style="position: relative; top: 0; left: 0; width: 100%; height: 45rem;"
-        src="https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=www.flickr.com/photos/132667348@N07/albums/with/72157693327908455&sort=0&by=album&theme=default_notextpanel&scale=fill&limit=10&skin=alexis-light&autoplay=true"
-        scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true"
-        mozallowfullscreen="true"><p><a  href="https://www.sellcompare.co.uk">
-          SellCompare website</a></p><small>Powered by <a href="https://flickrembed.com">
-            flickr embed</a>.</small></iframe><script type="text/javascript">function
-            showpics(){var a=$("#box").val();$.getJSON("
-            http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+
-            "&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").
-            hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").
-            attr("src",e.media.m).appendTo("#images")})})}</script>
-        </small>
-      </div>
-    </div>
-    </section>
-
-    <!-- Map Section
-    <div id="map"></div>
-    -->
 
     <!-- Footer -->
     <footer>
