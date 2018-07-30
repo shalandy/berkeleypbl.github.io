@@ -347,6 +347,19 @@ a:focus, a:hover {
   background-color: transparent;
 }
 
+.btn-social {
+  color: black;
+  border: none;
+  background-color: transparent;
+}
+
+.btn-social:focus, .btn-social:hover {
+  color: #bfe1fc;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
 
 .wbutton {
   color: white;
@@ -403,4 +416,8 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+.blkhover:hover {
+  background-color: black;
 }

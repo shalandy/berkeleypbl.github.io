@@ -1,3 +1,7 @@
+h1 {
+  font-size: 4rem;
+}
+
 .about-section {
   color: white;
   background: url("../img/vm-header.jpg") no-repeat center center scroll;
