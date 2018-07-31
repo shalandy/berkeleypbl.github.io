@@ -17,6 +17,62 @@ h1 {
     background: url("../img/vm-header.jpg") no-repeat center center scroll;
 }
 
+.tech {
+  background: url("https://iabspain.es/wp-content/uploads/sackcloth-1280539_1280.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cs {
+  background: url("https://www.websepanta.com/resources/attachments/1468238988-1fd10207b.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fi {
+  background: url("../img/fi-header.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.mk {
+  background: url("https://blog.hubspot.com/hubfs/Digital-Marketing-Strategies-compressor.jpg?t=1532885326947") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.in {
+  background: url("../img/in-header.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.upper {
+  background: url("../img/upper-header.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 11rem;
+  padding-bottom: 15rem;
+}
+
 .alumni {
   color: white;
   background: url("../img/carousel3.jpg") no-repeat center center scroll;
