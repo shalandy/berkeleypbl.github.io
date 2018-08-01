@@ -19,6 +19,12 @@ h1 {
   background-attachment: fixed;
 }
 
+@media (max-width: 1000px) {
+  .about-section {
+    padding-top: 120px;
+  }
+}
+
 .mission-section {
   color: white;
   background: url("../img/mission-bg.jpg") no-repeat center center scroll;
@@ -50,9 +56,12 @@ ul.footer-social-buttons {
   color: white;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1000px) {
   ul.footer-social-buttons {
     margin-top: 10px;
+  }
+  .mission-icon{
+    width: 10rem;
   }
 }
 
@@ -64,5 +73,8 @@ ul.footer-social-buttons {
   }
   ul.footer-social-buttons li:last-child {
     margin-bottom: 0;
+  }
+  .mission-icon{
+    width: 33%;
   }
 }

@@ -431,6 +431,11 @@ img::-moz-selection {
   background-color: black;
 }
 
+.gallery {
+  height: 42rem;
+}
+
+
 @media (max-width: 1000px) {
   .carousel-caption {
     padding-bottom: 0px;
@@ -444,6 +449,9 @@ img::-moz-selection {
   }
   .blkhover {
     width: 7rem;
+  }
+  .gallery {
+    height: 34rem;
   }
 }
 
@@ -464,6 +472,13 @@ img::-moz-selection {
   }
   .blkhover {
     width: 10rem;
+  }
+  .gallery {
+    height: 25rem;
+  }
+  .careers {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
