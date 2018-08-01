@@ -439,6 +439,12 @@ img::-moz-selection {
   .car-block {
     width: 30%;
   }
+  .abtbox {
+    width: 33%;
+  }
+  .blkhover {
+    width: 7rem;
+  }
 }
 
 
@@ -454,7 +460,10 @@ img::-moz-selection {
     width: 40%;
   }
   .abtbox {
-    width: 30%;
+    width: 33%;
+  }
+  .blkhover {
+    width: 10rem;
   }
 }
 
