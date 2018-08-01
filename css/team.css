@@ -2,6 +2,12 @@ h1 {
   font-size: 4rem;
 }
 
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
 .team-section {
   color: white;
   background: url("../img/team-bg.jpg") no-repeat center center scroll;

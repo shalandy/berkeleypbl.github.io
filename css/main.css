@@ -187,6 +187,7 @@ a:focus, a:hover {
   .masthead .intro-body .intro-text {
     font-size: 18px;
   }
+}
 
 
   .abttext {
@@ -378,8 +379,8 @@ ul.banner-social-buttons {
 
 @media (max-width: 767px) {
   ul.banner-social-buttons li {
-    display: block;
-    margin-bottom: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
     padding: 0;
   }
   ul.banner-social-buttons li:last-child {
@@ -388,7 +389,7 @@ ul.banner-social-buttons {
 }
 
 footer {
-  padding: 10px 0;
+  padding: 5px 0;
   background-color: black;
   color: white;
 }
@@ -396,6 +397,14 @@ footer {
 footer p {
   font-size: 14px;
   margin: 0;
+}
+
+@media (max-width: 1199px) {
+  footer {
+    background-color: black;
+    padding: 10px 0;
+    color: white;
+  }
 }
 
 ::-moz-selection {
@@ -420,4 +429,38 @@ img::-moz-selection {
 
 .blkhover:hover {
   background-color: black;
+}
+
+@media (max-width: 1000px) {
+  .carousel-caption {
+    padding-bottom: 0px;
+    bottom: 0px;
+  }
+  .car-block {
+    width: 30%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .carousel {
+    padding-top: 50px;
+  }
+  .carousel-caption {
+    padding-bottom: 0px;
+    bottom: 0px;
+  }
+  .car-block {
+    width: 40%;
+  }
+  .abtbox {
+    width: 30%;
+  }
+}
+
+.shadowed {
+    -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
