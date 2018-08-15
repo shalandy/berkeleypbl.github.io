@@ -67,6 +67,10 @@ h1 {
     text-align: center;
     color: #222;
 }
+.desk, .desk p {
+    padding-top: 5rem;
+    font-size: 1rem;
+}
 .team-member:hover .team-hover .s-link {
     bottom: 10%;
 }
