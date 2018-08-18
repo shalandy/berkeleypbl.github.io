@@ -435,6 +435,14 @@ img::-moz-selection {
   height: 42rem;
 }
 
+.abtbox {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.descr {
+  display: none;
+}
 
 @media (max-width: 1000px) {
   .carousel-caption {
@@ -446,6 +454,16 @@ img::-moz-selection {
   }
   .abtbox {
     width: 33%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .descr {
+    display: block;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+  }
+  .overlay {
+    display: none;
   }
   .blkhover {
     width: 7rem;
@@ -469,6 +487,8 @@ img::-moz-selection {
   }
   .abtbox {
     width: 33%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .blkhover {
     width: 33%;
