@@ -1,4 +1,3 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
-Redirect 301 "/apply.html" "https://docs.google.com/forms/d/e/1FAIpQLSepqK_qHo1_DEIsrsoBHXU-0hUcolx6XFU6aimZOvryCk0Hmg/viewform"
