@@ -1,6 +1,6 @@
 RewriteEngine On
 
-Redirect 301 /apply.html https://docs.google.com/forms/d/e/1FAIpQLSepqK_qHo1_DEIsrsoBHXU-0hUcolx6XFU6aimZOvryCk0Hmg/viewform
+Redirect 301 /apply.html https://docs.google.com/forms/d/e/1FAIpQLScl8ABwd2rWgVCH1zjtVOw-5XGNokbeRKx9C3akAhiJ5xN-1w/viewform
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
