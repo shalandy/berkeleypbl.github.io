@@ -105,6 +105,7 @@ a:focus, a:hover {
   outline: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background-color: transparent;
+  color: black;
 }
 
 @media (min-width: 992px) {
@@ -122,7 +123,7 @@ a:focus, a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background: black;
+    background: white;
   }
   #mainNav .nav-link.active {
     outline: none;
@@ -133,8 +134,20 @@ a:focus, a:hover {
   }
 }
 
+#mainNav.navbar-shrink a {
+  color: white;
+}
+
 .black-bg {
   background-color: black;
+}
+
+#mainNav .white_a a {
+  color: white;
+}
+
+#mainNav .black_a a {
+  color: black;
 }
 
 .dropdown-item:hover{
@@ -145,24 +158,31 @@ a:focus, a:hover {
   display: table;
   width: 100%;
   height: auto;
-  padding: 200px 0;
+  padding-top: 100px;
+  padding-bottom: 150px;
   text-align: center;
-  color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
-  background-color: black;
+  /* background: url("../img/intro-bg.jpg") no-repeat bottom center scroll; */
+  background-color: white;
+  background: url("../img/building1.jpg") no-repeat center center scroll;
+  color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+     -o-animation: fadein 3s; /* Opera < 12.1 */
+        animation: fadein 3s;
 }
 
 .masthead .intro-body {
+
   display: table-cell;
   vertical-align: middle;
 }
 
 .masthead .intro-body .brand-heading {
-  padding-top: 10px;
   font-size: 10px;
 }
 
@@ -171,10 +191,45 @@ a:focus, a:hover {
 }
 
 .icon {
-  padding: 100px;
-  padding-top: 350px;
-  padding-bottom: 0px;
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 0px;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+     -o-animation: fadein 3s; /* Opera < 12.1 */
+        animation: fadein 3s;
 }
+
+@keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
 
 @media (min-width: 768px) {
   .masthead {
@@ -292,7 +347,7 @@ a:focus, a:hover {
 
 .committee-section {
   color: white;
-  background: url("../img/committees-bg.jpg") no-repeat center center scroll;
+  background: url("../img/building2.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -390,8 +445,8 @@ ul.banner-social-buttons {
 
 footer {
   padding: 5px 0;
-  background-color: black;
-  color: white;
+  background-color: #DFDFDF;
+  color: #A7A7A7;
 }
 
 footer p {
@@ -408,14 +463,12 @@ footer p {
 }
 
 ::-moz-selection {
-  background: #bfe1fc;;
-  background: rgba(255, 255, 255, 0.2);
+  background: #bfe1fc;
   text-shadow: none;
 }
 
 ::selection {
-  background: #bfe1fc;;
-  background: rgba(255, 255, 255, 0.2);
+  background: #bfe1fc;
   text-shadow: none;
 }
 
@@ -507,4 +560,18 @@ img::-moz-selection {
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+#logos {
+  padding: 30px;
+  background-color: #DFDFDF;
+  color: #A7A7A7;
+  font-size: 1.5rem;
+}
+
+.clogo img {
+  margin: 2% auto;
+  display: block;
+  height: 30px;
+  width: auto;
 }
