@@ -50,10 +50,23 @@ h1 {
   background-color: transparent;
 }
 
+.btn-black {
+  color: black;
+  border: none;
+  background-color: transparent;
+}
+
+.btn-black:focus, .btn-default:hover {
+  color: #bfe1fc;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
 ul.footer-social-buttons {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  color: white;
+  color: black;
 }
 
 @media (max-width: 1000px) {

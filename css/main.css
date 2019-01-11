@@ -371,7 +371,7 @@ to   { opacity: 1; }
 
 @media (min-width: 992px) {
   .content-section {
-    padding-top: 10rem;
+    padding-top: 7rem;
     padding-bottom: 10rem;
   }
   #map {
@@ -416,6 +416,19 @@ to   { opacity: 1; }
   background-color: transparent;
 }
 
+.btn-black {
+  color: black;
+  border: none;
+  background-color: transparent;
+}
+
+.btn-black:focus, .btn-default:hover {
+  color: #bfe1fc;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
 
 .wbutton {
   color: white;
@@ -444,9 +457,9 @@ ul.banner-social-buttons {
 }
 
 footer {
-  padding: 5px 0;
-  background-color: #DFDFDF;
-  color: #A7A7A7;
+  padding: 0 0;
+  background-color: white;
+  color: black;
 }
 
 footer p {
@@ -456,9 +469,7 @@ footer p {
 
 @media (max-width: 1199px) {
   footer {
-    background-color: black;
-    padding: 10px 0;
-    color: white;
+    padding: 0 0;
   }
 }
 

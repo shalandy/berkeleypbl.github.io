@@ -1,5 +1,6 @@
 h1 {
   font-size: 4rem;
+  color: black;
 }
 
 @media (max-width: 767px) {
@@ -10,7 +11,7 @@ h1 {
 
 .team-section {
   color: white;
-  background: url("../img/team-bg.jpg") no-repeat center center scroll;
+  background: url("../img/execs/team-bg.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
