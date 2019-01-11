@@ -74,19 +74,19 @@ a:focus, a:hover {
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: black;
+  background-color: white;
 }
 
 #mainNav .navbar-toggler {
   font-size: 14px;
   padding: 11px;
-  color: white;
+  color: black;
   border: 1px solid white;
 }
 
 #mainNav a {
   border-bottom: none;
-  color: white;
+  color: black;
 }
 
 #mainNav .navbar-nav .nav-item {
@@ -96,7 +96,6 @@ a:focus, a:hover {
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
   outline: none;
   border-bottom: 2px solid #bfe1fc;
 }
@@ -105,7 +104,6 @@ a:focus, a:hover {
   outline: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background-color: transparent;
-  color: black;
 }
 
 @media (min-width: 992px) {
@@ -135,15 +133,15 @@ a:focus, a:hover {
 }
 
 #mainNav.navbar-shrink a {
-  color: white;
+  color: black;
 }
 
 .black-bg {
   background-color: black;
 }
 
-#mainNav .white_a a {
-  color: white;
+#mainNav .white_bg {
+  background-color: white;
 }
 
 #mainNav .black_a a {
@@ -377,6 +375,10 @@ to   { opacity: 1; }
   #map {
     height: 350px;
   }
+}
+
+.dropdown-item a {
+  color: black;
 }
 
 .btn {

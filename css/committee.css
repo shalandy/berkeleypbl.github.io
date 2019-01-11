@@ -40,7 +40,7 @@ h1 {
 }
 
 .tech {
-  background: url("https://iabspain.es/wp-content/uploads/sackcloth-1280539_1280.jpg") no-repeat center center scroll;
+  background: url("../img/tc-header.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -67,7 +67,7 @@ h1 {
 }
 
 .mk {
-  background: url("https://blog.hubspot.com/hubfs/Digital-Marketing-Strategies-compressor.jpg?t=1532885326947") no-repeat center center scroll;
+  background: url("../img/mk-header.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

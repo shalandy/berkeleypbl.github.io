@@ -3,10 +3,19 @@ h1 {
   color: black;
 }
 
+h1 span {
+  background-color: white;
+}
+
 @media (max-width: 767px) {
   h1 {
     font-size: 2rem;
   }
+}
+
+#mainNav {
+  background-color: white;
+  padding-bottom: 10px;
 }
 
 .team-section {
